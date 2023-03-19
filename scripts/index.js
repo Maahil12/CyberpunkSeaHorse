@@ -470,15 +470,15 @@ window.addEventListener("load", function () {
       this.explosions = [];
       this.enemyTimer = 0;
       this.enemyInterval = 2000;
-      this.ammo = 10;
-      this.maxAmmo = 70;
+      this.ammo = 30;
+      this.maxAmmo = 100;
       this.ammoTimer = 0;
       this.ammoInterval = 350;
       this.gameOver = false;
       this.score = 0;
-      this.winningScore = 80;
+      this.winningScore = 100;
       this.gameTime = 0;
-      this.timeLimit = 1000;
+      this.timeLimit = 60000;
       this.speed = 1;
       this.debug = false;
     }
