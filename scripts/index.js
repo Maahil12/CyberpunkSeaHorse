@@ -2,7 +2,7 @@ window.addEventListener("load", function () {
   //canvas setup
   const canvas = this.document.querySelector("canvas");
   const ctx = canvas.getContext("2d");
-  canvas.width = 1000;
+  canvas.width = 900;
   canvas.height = 500;
 
   class InputHandler {
@@ -470,15 +470,15 @@ window.addEventListener("load", function () {
       this.explosions = [];
       this.enemyTimer = 0;
       this.enemyInterval = 2000;
-      this.ammo = 30;
-      this.maxAmmo = 100;
+      this.ammo = 11;
+      this.maxAmmo = 50;
       this.ammoTimer = 0;
       this.ammoInterval = 350;
       this.gameOver = false;
       this.score = 0;
-      this.winningScore = 100;
+      this.winningScore = 70;
       this.gameTime = 0;
-      this.timeLimit = 60000;
+      this.timeLimit = 10000;
       this.speed = 1;
       this.debug = false;
     }
